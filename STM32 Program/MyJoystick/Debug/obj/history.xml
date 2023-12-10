@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F303VC -DSTM32F30X -D__FPU_USED -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\I2C -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\L3GD20 -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\dma -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\cmsis_boot -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\UART4 -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Flash -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Sensor -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\cmsis -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\cmsis_lib\include -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\USART -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\STM32303C_EVAL -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Speex -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\ProgramTimer -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\IWatchDog -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\TIM6 -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Clocking -I..\..\..\..\..\Programming\c\FREERTOScourses -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Keys -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\CalmanFilter -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\gpio_settings -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\FREERTOS\Include -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\interrupt_settings -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\cmsis_lib -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\FREERTOS\Portable -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\spi -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\FREERTOS -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\LCD1602 -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\ADC -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023 -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\WWatchDog -I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\LSM303DLHC">
+      <target file="modes.o" lastModified="18c02b4d354">
+         <source file="..\..\..\Speex\modes.c" lastModified="18b8c3bf58d"/>
+      </target>
+      <target file="nb_celp.o" lastModified="18c02b4cf44">
+         <source file="..\..\..\Speex\nb_celp.c" lastModified="18b8204ebe8"/>
+      </target>
+      <target file="cb_search.o" lastModified="18c02b4c86a">
+         <source file="..\..\..\Speex\cb_search.c" lastModified="18b820e0133"/>
+      </target>
+      <target file="stm32f30x_adc.o" lastModified="18c02b4b8c5">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="18b62939681"/>
+      </target>
+      <target file="lsp_tables_nb.o" lastModified="18c02b4b7e5">
+         <source file="..\..\..\Speex\lsp_tables_nb.c" lastModified="15ab7c4f618"/>
+      </target>
+      <target file="flash.o" lastModified="18c02b4b7ba">
+         <source file="..\..\..\Flash\flash.c" lastModified="18bdef7d166"/>
+      </target>
+      <target file="lsp.o" lastModified="18c02b4c97b">
+         <source file="..\..\..\Speex\lsp.c" lastModified="18b820ef8cd"/>
+      </target>
+      <target file="lcd1602.o" lastModified="18c02b4d0ee">
+         <source file="..\..\..\LCD1602\lcd1602.c" lastModified="18bf7f29e08"/>
+      </target>
+      <target file="stm32f30x_wwdg.o" lastModified="18c02b4d738">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_wwdg.c" lastModified="18b5134d099"/>
+      </target>
+      <target file="ltp.o" lastModified="18c02b4d6b8">
+         <source file="..\..\..\Speex\ltp.c" lastModified="18b8204ca20"/>
+      </target>
+      <target file="usart.o" lastModified="18c02d5726b">
+         <source file="..\..\..\USART\usart.c" lastModified="18bbd16a93b"/>
+      </target>
+      <target file="uart4.o" lastModified="18c02b4d319">
+         <source file="..\..\..\UART4\uart4.c" lastModified="18bfd914665"/>
+      </target>
+      <target file="stm32303c_eval.o" lastModified="18c02b4b9cf">
+         <source file="..\..\..\STM32303C_EVAL\stm32303c_eval.c" lastModified="18a78fe8159"/>
+      </target>
+      <target file="adc.o" lastModified="18c02b4cba2">
+         <source file="..\..\..\ADC\adc.c" lastModified="18bfd7a329a"/>
+      </target>
+      <target file="system_stm32f30x.o" lastModified="18c02b4b826">
+         <source file="..\..\..\cmsis_lib\source\system_stm32f30x.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="stm32f30x_i2c.o" lastModified="18c02b4c77b">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_i2c.c" lastModified="18a47acdcfc"/>
+      </target>
+      <target file="window.o" lastModified="18c02b4c892">
+         <source file="..\..\..\Speex\window.c" lastModified="18b8b93b936"/>
+      </target>
+      <target file="usb_pwr.o" lastModified="18c02b4bf47">
+         <source file="..\..\..\cmsis_lib\source\usb_pwr.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="stm32f30x_pwr.o" lastModified="18c02b4d6fa">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_pwr.c" lastModified="18a78fe559b"/>
+      </target>
+      <target file="l3gd20.o" lastModified="18c02bf2759">
+         <source file="..\..\..\L3GD20\l3gd20.c" lastModified="18c02bf134b"/>
+      </target>
+      <target file="usb_int.o" lastModified="18c02b4b96a">
+         <source file="..\..\..\cmsis_lib\source\usb_int.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="iwatchdog.o" lastModified="18c02b4d4c6">
+         <source file="..\..\..\IWatchDog\iwatchdog.c" lastModified="18be30e8e49"/>
+      </target>
+      <target file="stm32f30x_tim.o" lastModified="18c02b4cb3c">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="18b630213fa"/>
+      </target>
+      <target file="calmanFilter.o" lastModified="18c02d56efb">
+         <source file="..\..\..\CalmanFilter\calmanFilter.c" lastModified="18c02d05872"/>
+      </target>
+      <target file="usb_init.o" lastModified="18c02b4c01c">
+         <source file="..\..\..\cmsis_lib\source\usb_init.c" lastModified="18bc989e731"/>
+      </target>
+      <target file="hw_config.o" lastModified="18c02b4bccb">
+         <source file="..\..\..\cmsis_lib\source\hw_config.c" lastModified="18bceb56cdb"/>
+      </target>
+      <target file="i2c.o" lastModified="18c02b4b5ce">
+         <source file="..\..\..\I2C\i2c.c" lastModified="18a615308f5"/>
+      </target>
+      <target file="list.o" lastModified="18c02b4ca0a">
+         <source file="..\..\..\FREERTOS\Source\list.c" lastModified="16aa47ddd15"/>
+      </target>
+      <target file="usb_regs.o" lastModified="18c02b4bc6c">
+         <source file="..\..\..\cmsis_lib\source\usb_regs.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="heap_2.o" lastModified="18c02b4dacf">
+         <source file="..\..\..\FREERTOS\Source\heap_2.c" lastModified="16aa47de1f7"/>
+      </target>
+      <target file="lpc.o" lastModified="18c02b4c44d">
+         <source file="..\..\..\Speex\lpc.c" lastModified="18b820daeca"/>
+      </target>
+      <target file="sensor.o" lastModified="18c02b4c3c3">
+         <source file="..\..\..\Sensor\sensor.c" lastModified="1891026f766"/>
+      </target>
+      <target file="tim6.o" lastModified="18c02d57201">
+         <source file="..\..\..\TIM6\tim6.c" lastModified="18b6d212971"/>
+      </target>
+      <target file="stm32f30x_exti.o" lastModified="18c02b4c698">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_exti.c" lastModified="18a47b039b5"/>
+      </target>
+      <target file="GPIO.o" lastModified="18c02b4c2fd">
+         <source file="..\..\..\gpio_settings\GPIO.c" lastModified="18b681b57cf"/>
+      </target>
+      <target file="usb_mem.o" lastModified="18c02b4d8f3">
+         <source file="..\..\..\cmsis_lib\source\usb_mem.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="stream_buffer.o" lastModified="18c02b4d231">
+         <source file="..\..\..\FREERTOS\Source\stream_buffer.c" lastModified="16aa47de330"/>
+      </target>
+      <target file="vq.o" lastModified="18c02b4c7c4">
+         <source file="..\..\..\Speex\vq.c" lastModified="18b8b949458"/>
+      </target>
+      <target file="usb_sil.o" lastModified="18c02b4c8d2">
+         <source file="..\..\..\cmsis_lib\source\usb_sil.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="quant_lsp.o" lastModified="18c02b4bb8d">
+         <source file="..\..\..\Speex\quant_lsp.c" lastModified="18b8690cf86"/>
+      </target>
+      <target file="exc_10_32_table.o" lastModified="18c02b4daf4">
+         <source file="..\..\..\Speex\exc_10_32_table.c" lastModified="15ab7c4f618"/>
+      </target>
+      <target file="stm32f30x_flash.o" lastModified="18c02b4b728">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_flash.c" lastModified="18bde60ddc3"/>
+      </target>
+      <target file="clocking.o" lastModified="18c02b4d126">
+         <source file="..\..\..\Clocking\clocking.c" lastModified="18bfcee944b"/>
+      </target>
+      <target file="stm32f30x_syscfg.o" lastModified="18c02b4d39d">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_syscfg.c" lastModified="18a47b00367"/>
+      </target>
+      <target file="croutine.o" lastModified="18c02b4d267">
+         <source file="..\..\..\FREERTOS\Source\croutine.c" lastModified="16aa47ddc89"/>
+      </target>
+      <target file="stm32f30x_usart.o" lastModified="18c02b4dbc2">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_usart.c" lastModified="18a47aff3c4"/>
+      </target>
+      <target file="timers.o" lastModified="18c02b4c388">
+         <source file="..\..\..\FREERTOS\Source\timers.c" lastModified="16aa47de34f"/>
+      </target>
+      <target file="usb_endp.o" lastModified="18c02b4d161">
+         <source file="..\..\..\cmsis_lib\source\usb_endp.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="speexx.o" lastModified="18c02b4d8b0">
+         <source file="..\..\..\Speex\speexx.c" lastModified="18be6550e5e"/>
+      </target>
+      <target file="event_groups.o" lastModified="18c02b4d53a">
+         <source file="..\..\..\FREERTOS\Source\event_groups.c" lastModified="16aa47ddc89"/>
+      </target>
+      <target file="speex.o" lastModified="18c02b4b91b">
+         <source file="..\..\..\Speex\speex.c" lastModified="18b81f7a602"/>
+      </target>
+      <target file="stm32f30x_misc.o" lastModified="18c02b4ca49">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="18a47afdfb1"/>
+      </target>
+      <target file="vbr.o" lastModified="18c02b4d7a3">
+         <source file="..\..\..\Speex\vbr.c" lastModified="15ab7c4f618"/>
+      </target>
+      <target file="usb_istr.o" lastModified="18c02b4db3e">
+         <source file="..\..\..\cmsis_lib\source\usb_istr.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="stm32f30x_spi.o" lastModified="18c02b4c708">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_spi.c" lastModified="18a47acf0d1"/>
+      </target>
+      <target file="stm32f30x_dma.o" lastModified="18c02b4c2ac">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="18a47afd40e"/>
+      </target>
+      <target file="stm32f30x_gpio.o" lastModified="18c02b4bef9">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18a477f5a18"/>
+      </target>
+      <target file="stm32f30x_rcc.o" lastModified="18c02b4b64f">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18a477f569d"/>
+      </target>
+      <target file="wwatchdog.o" lastModified="18c02b4b29b">
+         <source file="..\..\..\WWatchDog\wwatchdog.c" lastModified="18b52f2254f"/>
+      </target>
+      <target file="port.o" lastModified="18c02b4cbf8">
+         <source file="..\..\..\FREERTOS\Portable\port.c" lastModified="16aa47ddeda"/>
+      </target>
+      <target file="bits.o" lastModified="18c02b4bfde">
+         <source file="..\..\..\Speex\bits.c" lastModified="18b81fb3150"/>
+      </target>
+      <target file="queue.o" lastModified="18c02b4cd05">
+         <source file="..\..\..\FREERTOS\Source\queue.c" lastModified="16aa47de320"/>
+      </target>
+      <target file="usb_core.o" lastModified="18c02b4b253">
+         <source file="..\..\..\cmsis_lib\source\usb_core.c" lastModified="15cb09c2c60"/>
+      </target>
+      <target file="tasks.o" lastModified="18c02b4c650">
+         <source file="..\..\..\FREERTOS\Source\tasks.c" lastModified="16aa47de33f"/>
+      </target>
+      <target file="stm32_it.o" lastModified="18c02b4cd49">
+         <source file="..\..\..\cmsis_lib\source\stm32_it.c" lastModified="18a790820c8"/>
+      </target>
+      <target file="gain_table_lbr.o" lastModified="18c02b4d7c8">
+         <source file="..\..\..\Speex\gain_table_lbr.c" lastModified="15ab7c4f618"/>
+      </target>
+      <target file="startup_stm32f30x.o" lastModified="18c02b4d185">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18a477f56aa"/>
+      </target>
+      <target file="dma.o" lastModified="18c02b4da7c">
+         <source file="..\..\..\dma\dma.c" lastModified="18be7647923"/>
+      </target>
+      <target file="stm32f30x_iwdg.o" lastModified="18c02b4b1aa">
+         <source file="..\..\..\cmsis_lib\source\stm32f30x_iwdg.c" lastModified="18afb3f9943"/>
+      </target>
+      <target file="spi.o" lastModified="18c02b4b409">
+         <source file="..\..\..\spi\spi.c" lastModified="18bbd2a1f60"/>
+      </target>
+      <target file="usb_prop.o" lastModified="18c02b4beac">
+         <source file="..\..\..\cmsis_lib\source\usb_prop.c" lastModified="18bc98dfb44"/>
+      </target>
+      <target file="filters.o" lastModified="18c02b4be50">
+         <source file="..\..\..\Speex\filters.c" lastModified="18b821154bc"/>
+      </target>
+      <target file="lsm303dlhc.o" lastModified="18c02c70344">
+         <source file="..\..\..\LSM303DLHC\lsm303dlhc.c" lastModified="18c02c6fb79"/>
+      </target>
+      <target file="speex_callbacks.o" lastModified="18c02b4b781">
+         <source file="..\..\..\Speex\speex_callbacks.c" lastModified="18b820fcc51"/>
+      </target>
+      <target file="system_stm32f30x_temp.o" lastModified="18c02b4c9bd">
+         <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18a477f56bd"/>
+      </target>
+      <target file="main.o" lastModified="18c02e2698b">
+         <source file="..\..\..\main.c" lastModified="18c02e258bc"/>
+      </target>
+      <target file="programTimer.o" lastModified="18c02b4c403">
+         <source file="..\..\..\ProgramTimer\programTimer.c" lastModified="18c029c2676"/>
+      </target>
+      <target file="usb_desc.o" lastModified="18c02b4bbc7">
+         <source file="..\..\..\cmsis_lib\source\usb_desc.c" lastModified="18bceb2c43b"/>
+      </target>
+   </processor>
+</history>
