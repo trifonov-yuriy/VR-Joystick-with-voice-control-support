@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=MyJoystick.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\MyJoystick -TC:\CooCox\CoIDE\configuration\ProgramData\MyJoystick/arm-gcc-link.ld -g -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu -lm -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu -lc -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu -lg -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu -lnosys">
+      <target file="MyJoystick.elf" lastModified="18c02e26ba3">
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu\libm.a" lastModified="153c9358fe0"/>
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu\libc.a" lastModified="153c93597b0"/>
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu\libg.a" lastModified="153c93597b0"/>
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\5.3 2016q1\arm-none-eabi\lib\armv7e-m\fpu\libnosys.a" lastModified="153c9358fe0"/>
+         <source file="..\obj\stm32f30x_iwdg.o" lastModified="18c02b4b1aa"/>
+         <source file="..\obj\usb_core.o" lastModified="18c02b4b253"/>
+         <source file="..\obj\wwatchdog.o" lastModified="18c02b4b29b"/>
+         <source file="..\obj\lsm303dlhc.o" lastModified="18c02c70344"/>
+         <source file="..\obj\spi.o" lastModified="18c02b4b409"/>
+         <source file="..\obj\i2c.o" lastModified="18c02b4b5ce"/>
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="18c02b4b64f"/>
+         <source file="..\obj\stm32f30x_flash.o" lastModified="18c02b4b728"/>
+         <source file="..\obj\speex_callbacks.o" lastModified="18c02b4b781"/>
+         <source file="..\obj\flash.o" lastModified="18c02b4b7ba"/>
+         <source file="..\obj\lsp_tables_nb.o" lastModified="18c02b4b7e5"/>
+         <source file="..\obj\system_stm32f30x.o" lastModified="18c02b4b826"/>
+         <source file="..\obj\stm32f30x_adc.o" lastModified="18c02b4b8c5"/>
+         <source file="..\obj\speex.o" lastModified="18c02b4b91b"/>
+         <source file="..\obj\usb_int.o" lastModified="18c02b4b96a"/>
+         <source file="..\obj\stm32303c_eval.o" lastModified="18c02b4b9cf"/>
+         <source file="..\obj\calmanFilter.o" lastModified="18c02d56efb"/>
+         <source file="..\obj\quant_lsp.o" lastModified="18c02b4bb8d"/>
+         <source file="..\obj\usb_desc.o" lastModified="18c02b4bbc7"/>
+         <source file="..\obj\usb_regs.o" lastModified="18c02b4bc6c"/>
+         <source file="..\obj\hw_config.o" lastModified="18c02b4bccb"/>
+         <source file="..\obj\filters.o" lastModified="18c02b4be50"/>
+         <source file="..\obj\usb_prop.o" lastModified="18c02b4beac"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="18c02b4bef9"/>
+         <source file="..\obj\usb_pwr.o" lastModified="18c02b4bf47"/>
+         <source file="..\obj\bits.o" lastModified="18c02b4bfde"/>
+         <source file="..\obj\usb_init.o" lastModified="18c02b4c01c"/>
+         <source file="..\obj\main.o" lastModified="18c02e2698b"/>
+         <source file="..\obj\stm32f30x_dma.o" lastModified="18c02b4c2ac"/>
+         <source file="..\obj\GPIO.o" lastModified="18c02b4c2fd"/>
+         <source file="..\obj\timers.o" lastModified="18c02b4c388"/>
+         <source file="..\obj\sensor.o" lastModified="18c02b4c3c3"/>
+         <source file="..\obj\programTimer.o" lastModified="18c02b4c403"/>
+         <source file="..\obj\lpc.o" lastModified="18c02b4c44d"/>
+         <source file="..\obj\l3gd20.o" lastModified="18c02bf2759"/>
+         <source file="..\obj\tasks.o" lastModified="18c02b4c650"/>
+         <source file="..\obj\stm32f30x_exti.o" lastModified="18c02b4c698"/>
+         <source file="..\obj\stm32f30x_spi.o" lastModified="18c02b4c708"/>
+         <source file="..\obj\stm32f30x_i2c.o" lastModified="18c02b4c77b"/>
+         <source file="..\obj\vq.o" lastModified="18c02b4c7c4"/>
+         <source file="..\obj\cb_search.o" lastModified="18c02b4c86a"/>
+         <source file="..\obj\window.o" lastModified="18c02b4c892"/>
+         <source file="..\obj\usb_sil.o" lastModified="18c02b4c8d2"/>
+         <source file="..\obj\lsp.o" lastModified="18c02b4c97b"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="18c02b4c9bd"/>
+         <source file="..\obj\list.o" lastModified="18c02b4ca0a"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="18c02b4ca49"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="18c02b4cb3c"/>
+         <source file="..\obj\adc.o" lastModified="18c02b4cba2"/>
+         <source file="..\obj\port.o" lastModified="18c02b4cbf8"/>
+         <source file="..\obj\queue.o" lastModified="18c02b4cd05"/>
+         <source file="..\obj\stm32_it.o" lastModified="18c02b4cd49"/>
+         <source file="..\obj\nb_celp.o" lastModified="18c02b4cf44"/>
+         <source file="..\obj\lcd1602.o" lastModified="18c02b4d0ee"/>
+         <source file="..\obj\clocking.o" lastModified="18c02b4d126"/>
+         <source file="..\obj\usb_endp.o" lastModified="18c02b4d161"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="18c02b4d185"/>
+         <source file="..\obj\stream_buffer.o" lastModified="18c02b4d231"/>
+         <source file="..\obj\croutine.o" lastModified="18c02b4d267"/>
+         <source file="..\obj\uart4.o" lastModified="18c02b4d319"/>
+         <source file="..\obj\modes.o" lastModified="18c02b4d354"/>
+         <source file="..\obj\stm32f30x_syscfg.o" lastModified="18c02b4d39d"/>
+         <source file="..\obj\tim6.o" lastModified="18c02d57201"/>
+         <source file="..\obj\iwatchdog.o" lastModified="18c02b4d4c6"/>
+         <source file="..\obj\event_groups.o" lastModified="18c02b4d53a"/>
+         <source file="..\obj\ltp.o" lastModified="18c02b4d6b8"/>
+         <source file="..\obj\stm32f30x_pwr.o" lastModified="18c02b4d6fa"/>
+         <source file="..\obj\stm32f30x_wwdg.o" lastModified="18c02b4d738"/>
+         <source file="..\obj\vbr.o" lastModified="18c02b4d7a3"/>
+         <source file="..\obj\gain_table_lbr.o" lastModified="18c02b4d7c8"/>
+         <source file="..\obj\speexx.o" lastModified="18c02b4d8b0"/>
+         <source file="..\obj\usb_mem.o" lastModified="18c02b4d8f3"/>
+         <source file="..\obj\dma.o" lastModified="18c02b4da7c"/>
+         <source file="..\obj\heap_2.o" lastModified="18c02b4dacf"/>
+         <source file="..\obj\exc_10_32_table.o" lastModified="18c02b4daf4"/>
+         <source file="..\obj\usb_istr.o" lastModified="18c02b4db3e"/>
+         <source file="..\obj\stm32f30x_usart.o" lastModified="18c02b4dbc2"/>
+         <source file="..\obj\usart.o" lastModified="18c02d5726b"/>
+      </target>
+   </processor>
+</history>

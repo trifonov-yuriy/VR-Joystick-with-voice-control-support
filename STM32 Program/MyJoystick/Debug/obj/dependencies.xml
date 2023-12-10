@@ -1,0 +1,1314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\cmsis /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\Flash /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\LSM303DLHC /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\ProgramTimer /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\cmsis_lib\include /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\Keys /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\UART4 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\Clocking /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\cmsis_lib /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\Sensor /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\STM32303C_EVAL /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\Speex /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\I2C /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\CalmanFilter /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\FREERTOS /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\FREERTOS\Include /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\LCD1602 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\cmsis_boot /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\TIM6 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\dma /I..\..\..\..\..\Programming\c\FREERTOScourses /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\spi /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\L3GD20 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\IWatchDog /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\interrupt_settings /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\WWatchDog /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\USART /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\FREERTOS\Portable /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\ADC /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject22112023\gpio_settings">
+      <source file="..\..\..\UART4\uart4.c" lastModified="18bfd914665">
+         <include file="..\..\..\UART4\uart4.h"/>
+      </source>
+      <source file="..\..\..\Speex\ltp.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Keys\keys.h" lastModified="18b007ba82e">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\hw_config.h" lastModified="18a7944bcf5">
+         <include file="..\..\..\cmsis_lib\include\platform_config.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_type.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_desc.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\croutine.h" lastModified="16aa47ddc98">
+         <include file="..\..\..\FREERTOS\Include\list.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\queue.h" lastModified="16aa47ddcd7">
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\speex_types.h"/>
+      </source>
+      <source file="..\..\..\Speex\filters.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_mem.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_mem.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_flash.c" lastModified="18bde60ddc3">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h" lastModified="18a47acdcf4">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_conf.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_iwdg.c" lastModified="18afb3f9943">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="18a477f5695">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_def.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_adc.h" lastModified="18b6293967a">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\IWatchDog\iwatchdog.h" lastModified="18c02a98974">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Source\croutine.c" lastModified="16aa47ddc89">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+      </source>
+      <source file="..\..\..\IWatchDog\iwatchdog.c" lastModified="18be30e8e49">
+         <include file="..\..\..\IWatchDog\iwatchdog.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_core.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_i2c.c" lastModified="18a47acdcfc">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Speex\vbr.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\exc_10_32_table.c" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\gpio_settings\GPIO.h" lastModified="18b629a42d6">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\interrupt_settings\interupt_settings.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h" lastModified="18afb3f9942">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_usart.c" lastModified="18a47aff3c4">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Speex\math_approx.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\bits.c" lastModified="18b81fb3150">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+      </source>
+      <source file="..\..\..\gpio_settings\GPIO.c" lastModified="18b681b57cf">
+         <include file="..\..\..\gpio_settings\GPIO.h"/>
+      </source>
+      <source file="..\..\..\Speex\window.c" lastModified="18b8b93b936">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\WWatchDog\wwatchdog.h" lastModified="18bcefbe6da">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18a477f569d">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32_it.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\hw_config.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18a477f56aa">
+      </source>
+      <source file="..\..\..\WWatchDog\wwatchdog.c" lastModified="18b52f2254f">
+         <include file="..\..\..\WWatchDog\wwatchdog.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_exti.c" lastModified="18a47b039b5">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="18b62939681">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_regs.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\Speex\config.h" lastModified="18b8c475ae4">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dma.h" lastModified="18a47afd407">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18a477f56bd">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="18a47afdfb1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_istr.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\Speex\gain_table_lbr.c" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_init.c" lastModified="18bc989e731">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_endp.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\hw_config.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_prop.c" lastModified="18bc98dfb44">
+         <include file="..\..\..\cmsis_lib\include\usb_prop.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\system_stm32f30x.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_flash.h" lastModified="18bde60ddc3">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\task.h" lastModified="16aa47ddd06">
+         <include file="..\..\..\FREERTOS\Include\list.h"/>
+      </source>
+      <source file="..\..\..\Speex\sb_celp.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\modes.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\nb_celp.h"/>
+      </source>
+      <source file="..\..\..\ADC\adc.h" lastModified="18c029ff666">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\TIM1\tim1.h"/>
+         <include file="..\..\..\UART4\uart4.h"/>
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\gpio_settings\GPIO.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="18a47afd40e">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+      </source>
+      <source file="..\..\..\Sensor\sensor.h" lastModified="189118c43cb">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\ADC\adc.c" lastModified="18bfd7a329a">
+         <include file="..\..\..\ADC\adc.h"/>
+      </source>
+      <source file="..\..\..\Sensor\sensor.c" lastModified="1891026f766">
+         <include file="..\..\..\Sensor\sensor.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_pwr.h" lastModified="18a78fe5594">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="18a477f56b5">
+      </source>
+      <source file="..\..\..\FREERTOS\Include\timers.h" lastModified="16aa47ddd15">
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_exti.h" lastModified="18a47b039ae">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_callbacks.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex.h"/>
+      </source>
+      <source file="..\..\..\USART\usart.h" lastModified="18bb2be9bff">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\LSM303DLHC\lsm303dlhc.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\CalmanFilter\calmanFilter.h"/>
+         <include file="..\..\..\ADC\adc.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_callbacks.c" lastModified="18b820fcc51">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\speex_callbacks.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+      </source>
+      <source file="..\..\..\USART\usart.c" lastModified="18bbd16a93b">
+         <include file="..\..\..\USART\usart.h"/>
+      </source>
+      <source file="..\..\..\I2C\i2c.c" lastModified="18a615308f5">
+         <include file="..\..\..\I2C\i2c.h"/>
+         <include file="..\..\..\Sensor\sensor.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\list.h" lastModified="16aa47ddcb7">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_core.h" lastModified="18bc985f1d4">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_misc.h" lastModified="18a47afdfaa">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\spi\spi.c" lastModified="18bbd2a1f60">
+         <include file="..\..\..\spi\spi.h"/>
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\interrupt_settings\interupt_settings.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_desc.c" lastModified="18bceb2c43b">
+         <include file="..\..\..\cmsis_lib\include\usb_desc.h"/>
+      </source>
+      <source file="..\..\..\Speex\cb_search.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\LCD1602\lcd1602.h" lastModified="18be3a6756d">
+         <include file="..\..\..\gpio_settings\GPIO.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\Flash\flash.h"/>
+         <include file="..\..\..\IWatchDog\iwatchdog.h"/>
+      </source>
+      <source file="..\..\..\STM32303C_EVAL\stm32303c_eval.h" lastModified="18a79062ffc">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\STM32303C_EVAL\stm32_eval_legacy.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\semphr.h" lastModified="16aa47ddcd7">
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+      </source>
+      <source file="..\..\..\dma\dma.h" lastModified="18bb35c5a57">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\interrupt_settings\interupt_settings.h"/>
+         <include file="..\..\..\ADC\adc.h"/>
+      </source>
+      <source file="..\..\..\interrupt_settings\interupt_settings.h" lastModified="18a47c7316f">
+      </source>
+      <source file="..\..\..\STM32303C_EVAL\stm32303c_eval.c" lastModified="18a78fe8159">
+         <include file="..\..\..\STM32303C_EVAL\stm32303c_eval.h"/>
+      </source>
+      <source file="..\..\..\dma\dma.c" lastModified="18be7647923">
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+         <include file="..\..\..\LSM303DLHC\lsm303dlhc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_pwr.c" lastModified="18a78fe559b">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_usart.h" lastModified="18a47aff3bc">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_pwr.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_pwr.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_int.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_int.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\hw_config.c" lastModified="18bceb56cdb">
+         <include file="..\..\..\cmsis_lib\include\hw_config.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\stream_buffer.h" lastModified="16aa47ddcf6">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18a477f5a18">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\mpu_wrappers.h" lastModified="16aa47ddcc7">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_type.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_spi.h" lastModified="18a47acf0ca">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_syscfg.c" lastModified="18a47b00367">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+      </source>
+      <source file="..\..\..\Speex\speexx.h" lastModified="18bbd155ee1">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\speex.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_regs.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\Clocking\clocking.h" lastModified="18bde783d98">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_wwdg.c" lastModified="18b5134d099">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Speex\speexx.c" lastModified="18be6550e5e">
+         <include file="..\..\..\Speex\speexx.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\stack_macros.h" lastModified="16aa47ddce6">
+      </source>
+      <source file="..\..\..\Clocking\clocking.c" lastModified="18bfcee944b">
+         <include file="..\..\..\Clocking\clocking.h"/>
+      </source>
+      <source file="..\..\..\Speex\lpc.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\fixed_generic.h" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\FREERTOS\Include\projdefs.h" lastModified="16aa47ddcc7">
+      </source>
+      <source file="..\..\..\Speex\modes.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_istr.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_prop.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\Speex\lsp.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h" lastModified="18be0ebf0c1">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_init.h" lastModified="18bc989e728">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_sil.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_sil.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_spi.c" lastModified="18a47acf0d1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_prop.h" lastModified="18bc983af82">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="18a477f5a11">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_desc.h" lastModified="18bc9d2c6ba">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_tim.h" lastModified="18a47affc67">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_lib.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\hw_config.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_type.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_regs.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_def.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_init.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_sil.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_mem.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_int.h"/>
+      </source>
+      <source file="..\..\..\TIM6\tim6.h" lastModified="18b962c45de">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Portable\portmacro.h" lastModified="16aa47ddeea">
+      </source>
+      <source file="..\..\..\TIM6\tim6.c" lastModified="18b6d212971">
+         <include file="..\..\..\TIM6\tim6.h"/>
+         <include file="..\..\..\spi\spi.h"/>
+         <include file="..\..\..\I2C\i2c.h"/>
+         <include file="..\..\..\Sensor\sensor.h"/>
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\USART\usart.h"/>
+      </source>
+      <source file="..\..\..\Speex\lsp_tables_nb.c" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\STM32303C_EVAL\stm32_eval_legacy.h" lastModified="18a78fe8167">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_wwdg.h" lastModified="18b5134d099">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_config_types.h" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\Speex\quant_lsp.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_bits.h" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\TIM1\tim1.h" lastModified="18b6cfdae92">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Portable\port.c" lastModified="16aa47ddeda">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32_it.c" lastModified="18a790820c8">
+         <include file="..\..\..\cmsis_lib\include\stm32_it.h"/>
+      </source>
+      <source file="..\..\..\ProgramTimer\programTimer.h" lastModified="18bf7878d1f">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\FREERTOS\Include\timers.h"/>
+      </source>
+      <source file="..\..\..\ProgramTimer\programTimer.c" lastModified="18c029c2676">
+         <include file="..\..\..\ProgramTimer\programTimer.h"/>
+      </source>
+      <source file="..\..\..\Flash\flash.h" lastModified="18bdef7d16d">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="18b630213fa">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h" lastModified="18a47b00361">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\portable.h" lastModified="16aa47ddcc7">
+         <include file="..\..\..\FREERTOS\Include\deprecated_definitions.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\event_groups.h" lastModified="16aa47ddc98">
+         <include file="..\..\..\FREERTOS\Include\timers.h"/>
+      </source>
+      <source file="..\..\..\UART4\uart4.h" lastModified="18bfd789913">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\ADC\adc.h"/>
+      </source>
+      <source file="..\..\..\Flash\flash.c" lastModified="18bdef7d166">
+         <include file="..\..\..\Flash\flash.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\Speex\cb_search_cortexM3.h" lastModified="15ab7c4f618">
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\I2C /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\L3GD20 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\dma /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\cmsis_boot /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\UART4 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Flash /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Sensor /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\cmsis /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\cmsis_lib\include /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\USART /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\STM32303C_EVAL /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Speex /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\ProgramTimer /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\IWatchDog /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\TIM6 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Clocking /I..\..\..\..\..\Programming\c\FREERTOScourses /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\Keys /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\CalmanFilter /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\gpio_settings /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\FREERTOS\Include /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\interrupt_settings /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\cmsis_lib /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\FREERTOS\Portable /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\spi /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\FREERTOS /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\LCD1602 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\ADC /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023 /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\WWatchDog /I..\..\..\..\..\Programming\c\FREERTOScourses\MyProject24112023\LSM303DLHC">
+      <source file="..\..\..\UART4\uart4.c" lastModified="18bfd914665">
+         <include file="..\..\..\UART4\uart4.h"/>
+      </source>
+      <source file="..\..\..\Speex\ltp.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\ltp.c" lastModified="18b8204e578">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\ltp.h"/>
+         <include file="..\..\..\Speex\stack_alloc.h"/>
+         <include file="..\..\..\Speex\filters.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\math_approx.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+      </source>
+      <source file="..\..\..\Keys\keys.h" lastModified="18b007ba82e">
+      </source>
+      <source file="..\..\..\CalmanFilter\calmanFilter.h" lastModified="18c02d565f1">
+         <include file="..\..\..\LSM303DLHC\lsm303dlhc.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\timers.h"/>
+      </source>
+      <source file="..\..\..\CalmanFilter\calmanFilter.c" lastModified="18c02d05872">
+         <include file="..\..\..\CalmanFilter\calmanFilter.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\hw_config.h" lastModified="18a7944bcf5">
+         <include file="..\..\..\cmsis_lib\include\platform_config.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_type.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_desc.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\croutine.h" lastModified="16aa47ddc98">
+         <include file="..\..\..\FREERTOS\Include\list.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Source\event_groups.c" lastModified="16aa47de071">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\timers.h"/>
+         <include file="..\..\..\FREERTOS\Include\event_groups.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\queue.h" lastModified="16aa47ddcd7">
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\speex_types.h"/>
+      </source>
+      <source file="..\..\..\Speex\filters.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex.c" lastModified="18b81f7a9ea">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\modes.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_mem.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_mem.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_flash.c" lastModified="18bde60ddc3">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_flash.h"/>
+      </source>
+      <source file="..\..\..\Speex\filters.c" lastModified="18b82117014">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\filters.h"/>
+         <include file="..\..\..\Speex\stack_alloc.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+         <include file="..\..\..\Speex\math_approx.h"/>
+         <include file="..\..\..\Speex\ltp.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\FreeRTOS.h" lastModified="16aa47de860">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Include\portable.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Source\timers.c" lastModified="16aa47de737">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\timers.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h" lastModified="18a47acdcf4">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\LSM303DLHC\lsm303dlhc.h" lastModified="18b51087844">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\I2C\i2c.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_conf.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\FREERTOS\Source\tasks.c" lastModified="16aa47df6c7">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\timers.h"/>
+         <include file="..\..\..\FREERTOS\Include\stack_macros.h"/>
+      </source>
+      <source file="..\..\..\LSM303DLHC\lsm303dlhc.c" lastModified="18c02c6fb79">
+         <include file="..\..\..\LSM303DLHC\lsm303dlhc.h"/>
+      </source>
+      <source file="..\..\..\Speex\os_support.h" lastModified="18b82149638">
+         <include file="..\..\..\Speex\config.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_iwdg.c" lastModified="18afb3f9943">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="18a477f5695">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_def.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_adc.h" lastModified="18b6293967a">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\IWatchDog\iwatchdog.h" lastModified="18c02a98974">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Source\croutine.c" lastModified="16aa47ddc89">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+      </source>
+      <source file="..\..\..\IWatchDog\iwatchdog.c" lastModified="18be30e8e49">
+         <include file="..\..\..\IWatchDog\iwatchdog.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_core.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_i2c.c" lastModified="18a47acdcfc">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Speex\vbr.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\exc_10_32_table.c" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\Speex\vbr.c" lastModified="15ab7c4fa00">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\vbr.h"/>
+      </source>
+      <source file="..\..\..\gpio_settings\GPIO.h" lastModified="18b629a42d6">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\interrupt_settings\interupt_settings.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h" lastModified="18afb3f9942">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_usart.c" lastModified="18a47aff3c4">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Speex\math_approx.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\bits.c" lastModified="18b81fb3150">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+      </source>
+      <source file="..\..\..\gpio_settings\GPIO.c" lastModified="18b681b57cf">
+         <include file="..\..\..\gpio_settings\GPIO.h"/>
+      </source>
+      <source file="..\..\..\Speex\window.c" lastModified="18b8b93b936">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_types.h" lastModified="18b81f37876">
+         <include file="..\..\..\Speex\speex_config_types.h"/>
+      </source>
+      <source file="..\..\..\WWatchDog\wwatchdog.h" lastModified="18bcefbe6da">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18a477f569d">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32_it.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\hw_config.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18a477f56aa">
+      </source>
+      <source file="..\..\..\WWatchDog\wwatchdog.c" lastModified="18b52f2254f">
+         <include file="..\..\..\WWatchDog\wwatchdog.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_exti.c" lastModified="18a47b039b5">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="18b62939681">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_regs.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\Speex\config.h" lastModified="18b8c475ae4">
+      </source>
+      <source file="..\..\..\FREERTOS\Source\heap_2.c" lastModified="16aa47de5df">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="18bd929ea3b">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dma.h" lastModified="18a47afd407">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18a477f56bd">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="18a47afdfb1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_istr.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_istr.h"/>
+      </source>
+      <source file="..\..\..\Speex\arch.h" lastModified="18b8b9318ab">
+         <include file="..\..\..\Speex\speex_types.h"/>
+         <include file="..\..\..\Speex\fixed_generic.h"/>
+      </source>
+      <source file="..\..\..\Speex\gain_table_lbr.c" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_init.c" lastModified="18bc989e731">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_endp.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\hw_config.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_prop.c" lastModified="18bc98dfb44">
+         <include file="..\..\..\cmsis_lib\include\usb_prop.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\system_stm32f30x.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_flash.h" lastModified="18bde60ddc3">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\task.h" lastModified="16aa47ddd06">
+         <include file="..\..\..\FREERTOS\Include\list.h"/>
+      </source>
+      <source file="..\..\..\Speex\sb_celp.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\modes.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\nb_celp.h"/>
+      </source>
+      <source file="..\..\..\ADC\adc.h" lastModified="18c029ff666">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\TIM1\tim1.h"/>
+         <include file="..\..\..\UART4\uart4.h"/>
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\gpio_settings\GPIO.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="18a47afd40e">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+      </source>
+      <source file="..\..\..\Sensor\sensor.h" lastModified="189118c43cb">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\ADC\adc.c" lastModified="18bfd7a329a">
+         <include file="..\..\..\ADC\adc.h"/>
+      </source>
+      <source file="..\..\..\Sensor\sensor.c" lastModified="1891026f766">
+         <include file="..\..\..\Sensor\sensor.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\deprecated_definitions.h" lastModified="16aa47ea7b8">
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_pwr.h" lastModified="18a78fe5594">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="18a477f56b5">
+      </source>
+      <source file="..\..\..\FREERTOS\Include\timers.h" lastModified="16aa47ddd15">
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_exti.h" lastModified="18a47b039ae">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_callbacks.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex.h"/>
+      </source>
+      <source file="..\..\..\USART\usart.h" lastModified="18bb2be9bff">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\LSM303DLHC\lsm303dlhc.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\CalmanFilter\calmanFilter.h"/>
+         <include file="..\..\..\ADC\adc.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_callbacks.c" lastModified="18b820fcc51">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\speex_callbacks.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+      </source>
+      <source file="..\..\..\I2C\i2c.h" lastModified="18a5af37046">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\LSM303DLHC\lsm303dlhc.h"/>
+      </source>
+      <source file="..\..\..\USART\usart.c" lastModified="18bbd16a93b">
+         <include file="..\..\..\USART\usart.h"/>
+      </source>
+      <source file="..\..\..\spi\spi.h" lastModified="18bad878bcd">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+      </source>
+      <source file="..\..\..\I2C\i2c.c" lastModified="18a615308f5">
+         <include file="..\..\..\I2C\i2c.h"/>
+         <include file="..\..\..\Sensor\sensor.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\list.h" lastModified="16aa47ddcb7">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_core.h" lastModified="18bc985f1d4">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_misc.h" lastModified="18a47afdfaa">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\spi\spi.c" lastModified="18bbd2a1f60">
+         <include file="..\..\..\spi\spi.h"/>
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\interrupt_settings\interupt_settings.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_desc.c" lastModified="18bceb2c43b">
+         <include file="..\..\..\cmsis_lib\include\usb_desc.h"/>
+      </source>
+      <source file="..\..\..\Speex\cb_search.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\LCD1602\lcd1602.h" lastModified="18be3a6756d">
+         <include file="..\..\..\gpio_settings\GPIO.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\Flash\flash.h"/>
+         <include file="..\..\..\IWatchDog\iwatchdog.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="18a477f5eaa">
+      </source>
+      <source file="..\..\..\STM32303C_EVAL\stm32303c_eval.h" lastModified="18a79062ffc">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\STM32303C_EVAL\stm32_eval_legacy.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\semphr.h" lastModified="16aa47ddcd7">
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+      </source>
+      <source file="..\..\..\LCD1602\lcd1602.c" lastModified="18bf7f2a1f0">
+         <include file="..\..\..\LCD1602\lcd1602.h"/>
+      </source>
+      <source file="..\..\..\Speex\cb_search.c" lastModified="18b820e0ceb">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\cb_search.h"/>
+         <include file="..\..\..\Speex\filters.h"/>
+         <include file="..\..\..\Speex\stack_alloc.h"/>
+         <include file="..\..\..\Speex\vq.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+         <include file="..\..\..\Speex\math_approx.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+         <include file="..\..\..\Speex\cb_search_cortexM3.h"/>
+      </source>
+      <source file="..\..\..\dma\dma.h" lastModified="18bb35c5a57">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\interrupt_settings\interupt_settings.h"/>
+         <include file="..\..\..\ADC\adc.h"/>
+      </source>
+      <source file="..\..\..\interrupt_settings\interupt_settings.h" lastModified="18a47c7316f">
+      </source>
+      <source file="..\..\..\STM32303C_EVAL\stm32303c_eval.c" lastModified="18a78fe8159">
+         <include file="..\..\..\STM32303C_EVAL\stm32303c_eval.h"/>
+      </source>
+      <source file="..\..\..\dma\dma.c" lastModified="18be7647923">
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+         <include file="..\..\..\LSM303DLHC\lsm303dlhc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_pwr.c" lastModified="18a78fe559b">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_usart.h" lastModified="18a47aff3bc">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_pwr.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_pwr.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Source\queue.c" lastModified="16aa47deaf0">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Source\list.c" lastModified="16aa47de0fd">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\list.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_int.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_int.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\hw_config.c" lastModified="18bceb56cdb">
+         <include file="..\..\..\cmsis_lib\include\hw_config.h"/>
+      </source>
+      <source file="..\..\..\L3GD20\l3gd20.h" lastModified="18b51080a78">
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+      </source>
+      <source file="..\..\..\Speex\vq.h" lastModified="15ab7c4fa00">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\stream_buffer.h" lastModified="16aa47ddcf6">
+      </source>
+      <source file="..\..\..\L3GD20\l3gd20.c" lastModified="18c02bf1733">
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+         <include file="..\..\..\LSM303DLHC\lsm303dlhc.h"/>
+      </source>
+      <source file="..\..\..\Speex\vq.c" lastModified="18b8b94a7e0">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\vq.h"/>
+         <include file="..\..\..\Speex\stack_alloc.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\stack_alloc.h" lastModified="15ab7c505b8">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18a477f5a18">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\mpu_wrappers.h" lastModified="16aa47ddcc7">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_type.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_spi.h" lastModified="18a47acf0ca">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_syscfg.c" lastModified="18a47b00367">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+      </source>
+      <source file="..\..\..\Speex\speexx.h" lastModified="18bbd155ee1">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\speex.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_regs.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\Clocking\clocking.h" lastModified="18bde783d98">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_wwdg.c" lastModified="18b5134d099">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\Speex\speexx.c" lastModified="18be6550e5e">
+         <include file="..\..\..\Speex\speexx.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\stack_macros.h" lastModified="16aa47ddce6">
+      </source>
+      <source file="..\..\..\Clocking\clocking.c" lastModified="18bfcee944b">
+         <include file="..\..\..\Clocking\clocking.h"/>
+      </source>
+      <source file="..\..\..\Speex\lpc.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\nb_celp.h" lastModified="15ab7c4fa00">
+         <include file="..\..\..\Speex\modes.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\speex_callbacks.h"/>
+         <include file="..\..\..\Speex\vbr.h"/>
+         <include file="..\..\..\Speex\filters.h"/>
+      </source>
+      <source file="..\..\..\Speex\fixed_generic.h" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\Speex\lpc.c" lastModified="18b820db2b2">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\lpc.h"/>
+      </source>
+      <source file="..\..\..\Speex\nb_celp.c" lastModified="18b8204f3b8">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\nb_celp.h"/>
+         <include file="..\..\..\Speex\lpc.h"/>
+         <include file="..\..\..\Speex\lsp.h"/>
+         <include file="..\..\..\Speex\ltp.h"/>
+         <include file="..\..\..\Speex\quant_lsp.h"/>
+         <include file="..\..\..\Speex\cb_search.h"/>
+         <include file="..\..\..\Speex\filters.h"/>
+         <include file="..\..\..\Speex\stack_alloc.h"/>
+         <include file="..\..\..\Speex\vq.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\vbr.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+         <include file="..\..\..\Speex\math_approx.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+         <include file="..\..\..\Speex\speex_callbacks.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\projdefs.h" lastModified="16aa47ddcc7">
+      </source>
+      <source file="..\..\..\Speex\modes.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex.h"/>
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\modes.c" lastModified="18b8c3bf975">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\modes.h"/>
+         <include file="..\..\..\Speex\ltp.h"/>
+         <include file="..\..\..\Speex\quant_lsp.h"/>
+         <include file="..\..\..\Speex\cb_search.h"/>
+         <include file="..\..\..\Speex\sb_celp.h"/>
+         <include file="..\..\..\Speex\nb_celp.h"/>
+         <include file="..\..\..\Speex\vbr.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_istr.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_prop.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_pwr.h"/>
+      </source>
+      <source file="..\..\..\Speex\lsp.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h" lastModified="18be0ebf0c1">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_init.h" lastModified="18bc989e728">
+      </source>
+      <source file="..\..\..\Speex\lsp.c" lastModified="18b820f009d">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\lsp.h"/>
+         <include file="..\..\..\Speex\stack_alloc.h"/>
+         <include file="..\..\..\Speex\math_approx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\usb_sil.c" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_sil.h" lastModified="15cb09c2c60">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_spi.c" lastModified="18a47acf0d1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Source\stream_buffer.c" lastModified="16aa47deb00">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\stream_buffer.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_prop.h" lastModified="18bc983af82">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\platform_config.h" lastModified="18a7902368a">
+         <include file="..\..\..\STM32303C_EVAL\stm32303c_eval.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="18a477f5aae">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="18a477f5a11">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_desc.h" lastModified="18bc9d2c6ba">
+         <include file="..\..\..\cmsis_lib\include\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_tim.h" lastModified="18a47affc67">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\usb_lib.h" lastModified="15cb09c2c60">
+         <include file="..\..\..\cmsis_lib\include\hw_config.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_type.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_regs.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_def.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_core.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_init.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_sil.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_mem.h"/>
+         <include file="..\..\..\cmsis_lib\include\usb_int.h"/>
+      </source>
+      <source file="..\..\..\TIM6\tim6.h" lastModified="18b962c45de">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Portable\portmacro.h" lastModified="16aa47ddeea">
+      </source>
+      <source file="..\..\..\TIM6\tim6.c" lastModified="18b6d212971">
+         <include file="..\..\..\TIM6\tim6.h"/>
+         <include file="..\..\..\spi\spi.h"/>
+         <include file="..\..\..\I2C\i2c.h"/>
+         <include file="..\..\..\Sensor\sensor.h"/>
+         <include file="..\..\..\dma\dma.h"/>
+         <include file="..\..\..\USART\usart.h"/>
+      </source>
+      <source file="..\..\..\Speex\lsp_tables_nb.c" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\STM32303C_EVAL\stm32_eval_legacy.h" lastModified="18a78fe8167">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_wwdg.h" lastModified="18b5134d099">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_config_types.h" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\Speex\quant_lsp.h" lastModified="15ab7c4f618">
+         <include file="..\..\..\Speex\speex_bits.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\Speex\speex_bits.h" lastModified="15ab7c4f618">
+      </source>
+      <source file="..\..\..\TIM1\tim1.h" lastModified="18b6cfdae92">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\L3GD20\l3gd20.h"/>
+      </source>
+      <source file="..\..\..\Speex\quant_lsp.c" lastModified="18b8690d756">
+         <include file="..\..\..\Speex\config.h"/>
+         <include file="..\..\..\Speex\quant_lsp.h"/>
+         <include file="..\..\..\Speex\os_support.h"/>
+         <include file="..\..\..\Speex\arch.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Portable\port.c" lastModified="16aa47ddeda">
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32_it.c" lastModified="18a790820c8">
+         <include file="..\..\..\cmsis_lib\include\stm32_it.h"/>
+      </source>
+      <source file="..\..\..\ProgramTimer\programTimer.h" lastModified="18bf7878d1f">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\projdefs.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FREERTOS\Include\FreeRTOS.h"/>
+         <include file="..\..\..\FREERTOS\Include\croutine.h"/>
+         <include file="..\..\..\FREERTOS\Include\task.h"/>
+         <include file="..\..\..\FREERTOS\Include\queue.h"/>
+         <include file="..\..\..\FREERTOS\Include\semphr.h"/>
+         <include file="..\..\..\FREERTOS\Include\timers.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="18a477f5ea3">
+      </source>
+      <source file="..\..\..\ProgramTimer\programTimer.c" lastModified="18c029c2676">
+         <include file="..\..\..\ProgramTimer\programTimer.h"/>
+      </source>
+      <source file="..\..\..\Flash\flash.h" lastModified="18bdef7d16d">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="18b630213fa">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h" lastModified="18a47b00361">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\portable.h" lastModified="16aa47ddcc7">
+         <include file="..\..\..\FREERTOS\Include\deprecated_definitions.h"/>
+         <include file="..\..\..\FREERTOS\Portable\portmacro.h"/>
+         <include file="..\..\..\FREERTOS\Include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\FREERTOS\Include\event_groups.h" lastModified="16aa47ddc98">
+         <include file="..\..\..\FREERTOS\Include\timers.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="18a477f5e9b">
+      </source>
+      <source file="..\..\..\UART4\uart4.h" lastModified="18bfd789913">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\ADC\adc.h"/>
+      </source>
+      <source file="..\..\..\Flash\flash.c" lastModified="18bdef7d166">
+         <include file="..\..\..\Flash\flash.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\Speex\cb_search_cortexM3.h" lastModified="15ab7c4f618">
+      </source>
+   </includePath>
+</dependencies>
